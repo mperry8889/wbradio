@@ -39,7 +39,7 @@ def main():
             entry = fg.add_entry(order='append')
             entry.id(url)
             entry.title(datestamp.strftime('%m/%d/%Y'))
-            entry.pubdate(datestamp.strftime('%Y-%m-%d 00:00:00 UTC'))
+            entry.pubdate(datestamp.strftime('%Y-%m-%d 12:00:00 EST'))
             entry.description(datestamp.strftime('Wicked Bites Radio show for %A, %B %e %Y'))
             entry.podcast.itunes_summary(datestamp.strftime('Wicked Bites Radio show for %A, %B %e %Y'))
             entry.enclosure(url, r.headers.get('Content-Length', 0), 'audio/mpeg')
