@@ -4,7 +4,7 @@ chardet==3.0.4
 -e git://github.com/lkiesow/python-feedgen.git@27e9cd0c9a4dbf061f39d4b2ab7e48a63ee5308c#egg=feedgen
 feedparser==5.2.1
 idna==2.6
-lxml==4.2.1
+lxml==4.6.5
 python-dateutil==2.7.3
 requests==2.18.4
 six==1.11.0
